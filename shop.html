@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Modern Online Store</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Modern Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="CONTACT.HTML">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="shop-header">
+            <h2>Shop Our Collection</h2>
+            <div class="shop-filters">
+                <input type="text" id="search" placeholder="Search products..." class="search-input">
+                <select id="category" class="filter">
+                    <option value="all">All Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="accessories">Accessories</option>
+                </select>
+                <select id="price" class="filter">
+                    <option value="all">Price Range</option>
+                    <option value="low">Under $50</option>
+                    <option value="medium">$50 - $150</option>
+                    <option value="high">Over $150</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="products" class="product-section">
+        
+        </section>
+
+        <section id="shop" class="product-section">
+            <div class="product-card">
+                <img src="headfone.jpg" alt="Product Image">
+                <h2>Wireless Headphones</h2>
+                <p class="product-price">$79.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="smart-watch.jpg" alt="Product Image">
+                <h2>Smart Watch</h2>
+                <p class="product-price">$129.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="speaker.jpg" alt="Product Image">
+                <h2>Portable Speaker</h2>
+                <p class="product-price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="earbud.jpg" alt="Product Image">
+                <h2>Bluetooth Earbuds</h2>
+                <p class="product-price">$59.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Modern Store. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+        </ul>
+    </footer>
+
+    <script src="shop.js"></script>
+</body>
+</html>
